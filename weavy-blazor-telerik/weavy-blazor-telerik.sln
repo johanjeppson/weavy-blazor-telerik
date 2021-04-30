@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weavy-blazor-telerik.Server", "weavy-blazor-telerik\Server\weavy-blazor-telerik.Server.csproj", "{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weavy-blazor-telerik.Client", "weavy-blazor-telerik\Client\weavy-blazor-telerik.Client.csproj", "{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weavy-blazor-telerik.Shared", "weavy-blazor-telerik\Shared\weavy-blazor-telerik.Shared.csproj", "{773C721F-FB3B-4E65-989D-D21515477E10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773C721F-FB3B-4E65-989D-D21515477E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773C721F-FB3B-4E65-989D-D21515477E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773C721F-FB3B-4E65-989D-D21515477E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773C721F-FB3B-4E65-989D-D21515477E10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFEA9752-1C41-4008-B69B-3DCAE9117BE8}
+	EndGlobalSection
+EndGlobal
