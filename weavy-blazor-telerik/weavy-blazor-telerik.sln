@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weavy-blazor-telerik.Server", "weavy-blazor-telerik\Server\weavy-blazor-telerik.Server.csproj", "{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weavy-blazor-telerik.Server", "weavy-blazor-telerik\Server\weavy-blazor-telerik.Server.csproj", "{A8AD3E4C-30F9-4AE1-91DC-D40746A9E4CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weavy-blazor-telerik.Client", "weavy-blazor-telerik\Client\weavy-blazor-telerik.Client.csproj", "{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weavy-blazor-telerik.Client", "weavy-blazor-telerik\Client\weavy-blazor-telerik.Client.csproj", "{63F2BAE3-9D66-4F1E-9891-2AEDD614E3B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weavy-blazor-telerik.Shared", "weavy-blazor-telerik\Shared\weavy-blazor-telerik.Shared.csproj", "{773C721F-FB3B-4E65-989D-D21515477E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "weavy-blazor-telerik.Shared", "weavy-blazor-telerik\Shared\weavy-blazor-telerik.Shared.csproj", "{773C721F-FB3B-4E65-989D-D21515477E10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,47 @@
+﻿@page "/chat"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Microsoft.Extensions.Configuration;
+@using weavy_blazor_telerik.Shared
+@attribute [Authorize]
+@inject HttpClient Http
+@inject IConfiguration Configuration
+
+<h1>Chat</h1>
+<p>@Configuration.GetSection("Weavy")["Url"]</p>
+
+@if (conversations == null) {
+    <p><em>Loading...</em></p>
+} else {
+    <table class="table">
+        <thead>
+            <tr>
+                <th>When</th>
+                <th>Who</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var conversation in conversations) {
+                <tr>
+                    <td>@conversation.CreatedAt.ToString()</td>
+                    <td>@conversation.CreatedBy().Profile.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private Conversation[] conversations;
+
+    protected override async Task OnInitializedAsync() {
+
+        try {
+            //conversations = await Http.GetFromJsonAsync<Conversation[]>("WeatherForecast");
+        } catch (AccessTokenNotAvailableException exception) {
+            exception.Redirect();
+        }
+    }
+
+}
