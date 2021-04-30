@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 namespace weavy_blazor_telerik.Server.Models {
-    public class CustomAuthorizationMessageHandler : AuthorizationMessageHandler {
+    public class WeavyAuthorizationMessageHandler : AuthorizationMessageHandler {
 
-        public CustomAuthorizationMessageHandler(IAccessTokenProvider provider,
+        public WeavyAuthorizationMessageHandler(IAccessTokenProvider provider,
             NavigationManager navigationManager)
             : base(provider, navigationManager) {
             ConfigureHandler(
